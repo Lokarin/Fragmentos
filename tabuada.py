@@ -13,7 +13,7 @@ x8 = numero * 8
 x9 = numero * 9
 x10 = numero * 10
 
-print("--- Tabuada do %i ---"%numero )
+print("--- Tabuada do %i --- \n"%numero )
 print("×1 = %f"%x1)
 print("×2 = %f"%x2)
 print("×3 = %f"%x3)
