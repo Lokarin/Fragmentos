@@ -2,7 +2,7 @@
 
 name = input("Insira seu nome: ")
 name2 = input("Insira seu sobrenome completo: ")
-idade = float(input("Insira sua idade: "))
+idade = float(input("Insira sua idade: \n"))
 
 print("Usuário: %s"%name, name2)
 print("Idade: %i"%idade)
