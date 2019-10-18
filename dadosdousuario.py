@@ -2,14 +2,16 @@
 
 name = input("Insira seu nome: ")
 name2 = input("Insira seu sobrenome completo: ")
-idade = float(input("Insira sua idade: "))
+idade = int(input("Insira sua idade: "))
 print("\n")
 
 print("Usuário: %s"%name, name2)
 print("Idade: %i"%idade)
 print("\n")
 
-if idade < 18:
-   print("Menor de Idade, Permissão Negada")
+if idade >= 18:
+  print ("Maior de Idade")
+elif idade > 0 and idade < 18:
+  print ("Menor de Idade")
 else:
-   print("Permissão Concedida")
+  print ("Valor Inválido")
