@@ -3,6 +3,7 @@
 val1 = float(input("Primeiro Valor: "))
 operador = input("Operador(+, -, *, /, **):" )
 val2 = float(input("Segundo Valor: "))
+print("\n")
 
 if operador == "+":
     soma = val1 + val2
