@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
+import math
 
 val1 = float(input("Primeiro Valor: "))
-operador = input("Operador(+, -, *, /, **):" )
+operador = input("Operador(+, -, *, /, **, resto):" )
 val2 = float(input("Segundo Valor: "))
 print("\n")
 
@@ -20,6 +21,9 @@ elif operador == "**":
 elif operador == "/":
     divisao = val1 / val2
     print("Resulatado da Divisão: %f"%divisao)
+elif operador == "resto":
+    resto = val1 % val2
+    print("O resto é de: %f"%resto)
 else:
     print("Operação Inválida")
     
