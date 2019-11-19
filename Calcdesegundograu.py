@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 import math
 
-valx = float(input("Valor de x ao quadrado: "))
-valx2 = float(input("Valor de x: "))
+valx = float(input("Valor de a ao quadrado: "))
+valx2 = float(input("Valor de b: "))
 val = float(input("Valor de c: "))
 
 delta = (valx2 ** 2) - (4*valx*val)
