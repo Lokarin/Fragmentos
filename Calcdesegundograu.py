@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import math
 
+print("Em Funcionamento...")
 valx = float(input("Valor de a ao quadrado: "))
 valx2 = float(input("Valor de b: "))
 val = float(input("Valor de c: "))
