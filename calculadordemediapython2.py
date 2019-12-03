@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+print("Em Funcionamento...")
 print("(Notas com Peso 2)")
 val1 = float(input("Digite aqui sua primeira nota: \n"))
 val2 = float(input("Digite aqui sua segunda nota: \n"))

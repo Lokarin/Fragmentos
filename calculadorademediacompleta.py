@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-  
+
+print("Em Funcionamento...")  
 print("Notas com peso?\n 1 - Yes\n 2 - No")
 peso = int(input("Resposta: "))
 
