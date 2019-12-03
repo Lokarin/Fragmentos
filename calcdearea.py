@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+print("Em Funcionamento...\n")
 print("1 - Quadrado \n2 - Retângulo\n3 - Triângulo \n4 - Círculo")
 forma = input("N° da forma desejada: ")
 
