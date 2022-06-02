@@ -2,13 +2,12 @@
 import math
 
 print("Em Funcionamento...")
-valx = float(input("Valor de a ao quadrado: "))
+valx = float(input("Valor a: "))
 valx2 = float(input("Valor de b: "))
 val = float(input("Valor de c: "))
 
 delta = (valx2 ** 2) - (4*valx*val)
 #print(delta)
-
 
 if delta < 0:
     print("A equação não possuí solução")
